@@ -1,0 +1,37 @@
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+#canvas {
+    border: 1px solid #666;
+    margin: auto;
+    display: block;
+    background-color: #fff;
+    resize: both;
+    overflow: auto;
+}
+body {
+    display: grid;
+    align-content: center;
+    grid-template-columns: 1fr 3fr 1fr;
+}
+
+.container {
+    grid-column: 2/3;
+    display: grid;
+    justify-content: center;
+    justify-items: center;
+}
+
+#info {
+    width: 60px;
+    height: 20px;
+    border: 1px solid black;
+    background-color: #fff;
+    display: grid;
+    justify-items: center;
+    opacity: 0.75;
+    border-radius: 5px;
+    box-shadow: 0 0 10px 0;
+}
